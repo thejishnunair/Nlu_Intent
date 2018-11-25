@@ -1,0 +1,938 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "please click(Action) the red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "please click(OK) the red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "please click(OK) the red button"
+      },
+      {
+        "intent": "button",
+        "text": "click button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "click the blue button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "click the blue colored button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "click the red colored button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "black",
+            "entity": "color"
+          }
+        ],
+        "text": "click the black button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "first",
+            "entity": "position"
+          }
+        ],
+        "text": "click the first button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "third",
+            "entity": "position"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "click the third red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "second",
+            "entity": "position"
+          }
+        ],
+        "text": "click the second button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "press the blue button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 59,
+            "end": 62,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "Please go to(Action) the next page by clicking(Action) the red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "Press red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "Click blue button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "Please click the red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "first",
+            "entity": "position"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "Click the first blue button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "first",
+            "entity": "position"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "click the first red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "first",
+            "entity": "position"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "green",
+            "entity": "color"
+          }
+        ],
+        "text": "clicke thefirst green button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "second",
+            "entity": "position"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "click the second red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "second",
+            "entity": "position"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "click the second blue button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "second",
+            "entity": "position"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "green",
+            "entity": "color"
+          }
+        ],
+        "text": "click the second green button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "third",
+            "entity": "position"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "click the third  red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "fourth",
+            "entity": "position"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "red",
+            "entity": "color"
+          }
+        ],
+        "text": "click the fourth red button"
+      },
+      {
+        "intent": "button",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "third",
+            "entity": "position"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "blue",
+            "entity": "color"
+          }
+        ],
+        "text": "click the third blue button"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "english",
+            "entity": "lang"
+          }
+        ],
+        "text": "(change)[actionL] the language to english"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "spanish",
+            "entity": "lang"
+          }
+        ],
+        "text": "(change)[actionL] the language to spanish"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "french",
+            "entity": "lang"
+          }
+        ],
+        "text": "(change)[actionL] the language to french"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "hindi",
+            "entity": "lang"
+          }
+        ],
+        "text": "(change)[actionL] the language to hindi"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "spanish",
+            "entity": "lang"
+          }
+        ],
+        "text": "please (change)[actionL] the language to spanish"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "english",
+            "entity": "lang"
+          }
+        ],
+        "text": "please (change)[actionL] the language to english"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 49,
+            "end": 56,
+            "value": "english",
+            "entity": "lang"
+          }
+        ],
+        "text": "can you please (change)[actionL] the language to english?"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 49,
+            "end": 54,
+            "value": "hindi",
+            "entity": "lang"
+          }
+        ],
+        "text": "can you please (change)[actionL] the language to hindi?"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 49,
+            "end": 55,
+            "value": "french",
+            "entity": "lang"
+          }
+        ],
+        "text": "can you please (change)[actionL] the language to french?"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 49,
+            "end": 56,
+            "value": "spanish",
+            "entity": "lang"
+          }
+        ],
+        "text": "can you please (change)[actionL] the language to spanish?"
+      },
+      {
+        "intent": "Language",
+        "text": "(change)[actionL] language"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "go",
+            "entity": "action"
+          }
+        ],
+        "text": "please go to google.com"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 3,
+            "end": 7,
+            "value": "back",
+            "entity": "direction"
+          }
+        ],
+        "text": "go back"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 3,
+            "end": 11,
+            "value": "backward",
+            "entity": "direction"
+          }
+        ],
+        "text": "go backward"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 3,
+            "end": 10,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "go forward"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "previous",
+            "entity": "direction"
+          }
+        ],
+        "text": "go to previous website"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "next",
+            "entity": "direction"
+          }
+        ],
+        "text": "go to next website"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "new",
+            "entity": "type"
+          },
+          {
+            "start": 4,
+            "end": 10,
+            "value": "window",
+            "entity": "type"
+          }
+        ],
+        "text": "new window"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "new",
+            "entity": "type"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "tab",
+            "entity": "type"
+          }
+        ],
+        "text": "new tab"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "open",
+            "entity": "action"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "new",
+            "entity": "type"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "tab",
+            "entity": "wintab"
+          }
+        ],
+        "text": "open a new tab <-- Paramters from this will be the type,action,direction,wintab -->"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "open",
+            "entity": "action"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "new",
+            "entity": "type"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "window",
+            "entity": "wintab"
+          }
+        ],
+        "text": "open a new window"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 15,
+            "end": 17,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "can you please go to forward?"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 15,
+            "end": 17,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "back",
+            "entity": "direction"
+          }
+        ],
+        "text": "can you please go to back?"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "go",
+            "entity": "action"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "please go forward."
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "open",
+            "entity": "action"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "new",
+            "entity": "type"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "tab",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please open a new tab"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "open",
+            "entity": "action"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "new",
+            "entity": "type"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "window",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please open a new window"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "close",
+            "entity": "action"
+          },
+          {
+            "start": 35,
+            "end": 38,
+            "value": "tab",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please close the (first)[position] tab"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 38,
+            "end": 41,
+            "value": "tab",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please [close] the (second)[position] tab"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "close",
+            "entity": "action"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "window",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please close the window"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "open",
+            "entity": "action"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "window",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please open a window"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "open",
+            "entity": "action"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "tab",
+            "entity": "wintab"
+          }
+        ],
+        "text": "please open a tab"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          }
+        ],
+        "text": "go to www.google.com"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          }
+        ],
+        "text": "go to www.facebook.com"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          }
+        ],
+        "text": "go to yahoo.com"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "go",
+            "entity": "action"
+          }
+        ],
+        "text": "go to www.ping.com"
+      },
+      {
+        "intent": "Navigation",
+        "text": ".com"
+      },
+      {
+        "intent": "Navigation",
+        "text": ".in"
+      },
+      {
+        "intent": "Navigation",
+        "text": ".org"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "action",
+        "elements": [
+          "press",
+          "go to",
+          "click",
+          "clicking"
+        ]
+      },
+      {
+        "name": "positon",
+        "elements": [
+          "first",
+          "second",
+          "third",
+          "fourth",
+          "fifth",
+          "sixth"
+        ]
+      }
+    ],
+    "entity_synonyms": []
+  }
+}
