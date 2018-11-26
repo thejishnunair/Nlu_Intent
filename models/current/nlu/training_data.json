@@ -357,6 +357,12 @@
         "intent": "Language",
         "entities": [
           {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "lang1"
+          },
+          {
             "start": 34,
             "end": 41,
             "value": "english",
@@ -368,6 +374,12 @@
       {
         "intent": "Language",
         "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "lang1"
+          },
           {
             "start": 34,
             "end": 41,
@@ -381,6 +393,12 @@
         "intent": "Language",
         "entities": [
           {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "lang1"
+          },
+          {
             "start": 34,
             "end": 40,
             "value": "french",
@@ -392,6 +410,12 @@
       {
         "intent": "Language",
         "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "lang1"
+          },
           {
             "start": 34,
             "end": 39,
@@ -405,6 +429,30 @@
         "intent": "Language",
         "entities": [
           {
+            "start": 22,
+            "end": 30,
+            "value": "language",
+            "entity": "lang1"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "malayalam",
+            "entity": "lang"
+          }
+        ],
+        "text": "(change)[actionL] the language to malayalam"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "language",
+            "entity": "lang1"
+          },
+          {
             "start": 41,
             "end": 48,
             "value": "spanish",
@@ -416,6 +464,12 @@
       {
         "intent": "Language",
         "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "language",
+            "entity": "lang1"
+          },
           {
             "start": 41,
             "end": 48,
@@ -429,6 +483,12 @@
         "intent": "Language",
         "entities": [
           {
+            "start": 37,
+            "end": 45,
+            "value": "language",
+            "entity": "lang1"
+          },
+          {
             "start": 49,
             "end": 56,
             "value": "english",
@@ -440,6 +500,12 @@
       {
         "intent": "Language",
         "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "language",
+            "entity": "lang1"
+          },
           {
             "start": 49,
             "end": 54,
@@ -453,6 +519,12 @@
         "intent": "Language",
         "entities": [
           {
+            "start": 37,
+            "end": 45,
+            "value": "language",
+            "entity": "lang1"
+          },
+          {
             "start": 49,
             "end": 55,
             "value": "french",
@@ -464,6 +536,12 @@
       {
         "intent": "Language",
         "entities": [
+          {
+            "start": 37,
+            "end": 45,
+            "value": "language",
+            "entity": "lang1"
+          },
           {
             "start": 49,
             "end": 56,
@@ -930,6 +1008,16 @@
           "fourth",
           "fifth",
           "sixth"
+        ]
+      },
+      {
+        "name": "lang",
+        "elements": [
+          "malayalam",
+          "hindi",
+          "greek",
+          "german",
+          "tamil"
         ]
       }
     ],

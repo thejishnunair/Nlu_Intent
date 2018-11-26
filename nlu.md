@@ -42,18 +42,27 @@
 - fifth
 - sixth
 
+## lookup:lang
+- malayalam
+- hindi
+- greek
+- german
+- tamil
+
 ## intent: Language
-- (change)[actionL] the language to [english](lang)
-- (change)[actionL] the language to [spanish](lang)
-- (change)[actionL] the language to [french](lang)   <!-- Try to add synonyms -->
-- (change)[actionL] the language to [hindi](lang)
-- please (change)[actionL] the language to [spanish](lang)
-- please (change)[actionL] the language to [english](lang)
-- can you please (change)[actionL] the language to [english](lang)?
-- can you please (change)[actionL] the language to [hindi](lang)?
-- can you please (change)[actionL] the language to [french](lang)?
-- can you please (change)[actionL] the language to [spanish](lang)?
-- (change)[actionL] language  <!-- Default Language is English -->
+- (change)[actionL] the [language](lang1) to [english](lang)
+- (change)[actionL] the [language](lang1) to [spanish](lang)
+- (change)[actionL] the [language](lang1) to [french](lang)   <!-- Try to add synonyms -->
+- (change)[actionL] the [language](lang1) to [hindi](lang)
+- (change)[actionL] the [language](lang1) to [malayalam](lang)
+- please (change)[actionL] the [language](lang1) to [spanish](lang)
+- please (change)[actionL] the [language](lang1) to [english](lang)
+- can you please (change)[actionL] the [language](lang1) to [english](lang)?
+- can you please (change)[actionL] the [language](lang1) to [hindi](lang)?
+- can you please (change)[actionL] the [language](lang1) to [french](lang)?
+- can you please (change)[actionL] the [language](lang1) to [spanish](lang)?
+- (change)[actionL] language  
+<!-- Default Language is English -->
 
 
 ## intent: Navigation
