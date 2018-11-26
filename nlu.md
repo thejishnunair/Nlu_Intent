@@ -20,7 +20,7 @@
 - Please click the [red](color) button
 - Click the [first](position) [blue](color) button
 - click the [first](position) [red](color) button
-- clicke the[first](position) [green](color) button
+- clicke the [first](position) [green](color) button
 - click the [second](position) [red](color) button
 - click the [second](position) [blue](color) button
 - click the [second](position) [green](color) button
@@ -93,3 +93,11 @@
 - .com
 - .in
 - .org
+## intent: Refresh
+- [refresh](actionr) the current page
+- [refresh](actionr) page
+- [refresh](actionr)
+- [refresh](actionr) current page
+- please [refresh](actionr) the page
+- please [refresh](actionr)
+- [refresh](actionr) it

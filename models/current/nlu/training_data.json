@@ -231,19 +231,19 @@
         "intent": "button",
         "entities": [
           {
-            "start": 10,
-            "end": 15,
+            "start": 11,
+            "end": 16,
             "value": "first",
             "entity": "position"
           },
           {
-            "start": 16,
-            "end": 21,
+            "start": 17,
+            "end": 22,
             "value": "green",
             "entity": "color"
           }
         ],
-        "text": "clicke thefirst green button"
+        "text": "clicke the first green button"
       },
       {
         "intent": "button",
@@ -986,6 +986,90 @@
       {
         "intent": "Navigation",
         "text": ".org"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "refresh the current page"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "refresh page"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "refresh"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "refresh current page"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "please refresh the page"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "please refresh"
+      },
+      {
+        "intent": "Refresh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "actionr"
+          }
+        ],
+        "text": "refresh it"
       }
     ],
     "regex_features": [],
