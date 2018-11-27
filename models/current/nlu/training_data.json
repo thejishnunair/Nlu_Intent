@@ -988,6 +988,42 @@
         "text": ".org"
       },
       {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "move",
+            "entity": "action"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "back",
+            "entity": "direction"
+          }
+        ],
+        "text": "move back"
+      },
+      {
+        "intent": "Navigation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "move",
+            "entity": "action"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "forward",
+            "entity": "direction"
+          }
+        ],
+        "text": "move forward"
+      },
+      {
         "intent": "Refresh",
         "entities": [
           {
@@ -1070,6 +1106,54 @@
           }
         ],
         "text": "refresh it"
+      },
+      {
+        "intent": "Find",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "find",
+            "entity": "actionf"
+          }
+        ],
+        "text": "find"
+      },
+      {
+        "intent": "Find",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "search",
+            "entity": "actionf"
+          }
+        ],
+        "text": "search"
+      },
+      {
+        "intent": "Find",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "find",
+            "entity": "actionf"
+          }
+        ],
+        "text": "please find"
+      },
+      {
+        "intent": "Find",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "search",
+            "entity": "actionf"
+          }
+        ],
+        "text": "pleade search"
       }
     ],
     "regex_features": [],

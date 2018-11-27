@@ -93,6 +93,9 @@
 - .com
 - .in
 - .org
+- [move](action) [back](direction)
+- [move](action) [forward](direction)
+
 ## intent: Refresh
 - [refresh](actionr) the current page
 - [refresh](actionr) page
@@ -101,3 +104,10 @@
 - please [refresh](actionr) the page
 - please [refresh](actionr)
 - [refresh](actionr) it
+
+## intent: Find
+- [find](actionf) 
+- [search](actionf)
+- please [find](actionf)
+- pleade [search](actionf)
+
